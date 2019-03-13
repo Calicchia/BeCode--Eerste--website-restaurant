@@ -1,0 +1,60 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e5e5e5;
+}
+.navbar-collapse {
+  background-color: #e5e5e5;
+}
+.photo {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.phototext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  font-size: 20px;
+  color: #e5e5e5;
+  text-align: center;
+}
+.card-header{
+  color: black;
+}
+.card-deck {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  height: 80px;
+  margin-top: 250px;
+}
+.btn {
+  color: #b50303;
+}
+a:hover {
+  color: #b50303 !important;
+}
+
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #e5e5e5;
+}
+
+.carousel-indicators li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.carousel-indicators .active {
+    background-color: #b50303;
+}
